@@ -6,6 +6,7 @@ from .ollama_client import Ollama
 from .claude_client import Claude
 from .openai_client import OpenAi
 from .gemini_client import Gemini
+from .openrouter_client import OpenRouter
 from .mistral_client import MistralAi
 from .groq_client import Groq
 
