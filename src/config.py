@@ -45,7 +45,10 @@ class Config:
 
     def get_openai_api_key(self):
         return self.config["API_KEYS"]["OPENAI"]
-
+        
+    def get_openrouter_api_key(self):
+        return self.config["API_KEYS"]["OPENROUTER"]
+        
     def get_openai_api_base_url(self):
         return self.config["API_ENDPOINTS"]["OPENAI"]
 
